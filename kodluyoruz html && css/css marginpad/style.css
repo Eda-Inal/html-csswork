@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+   
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin-right: 10px; 
+    /* if we use margin, we should determine the way. otherwise it changes every way. for instance, if we want space between 2 box and the boxes are attached to each other from the bottom, we should write margin-bottom. */
+    float: left;
+}
+
+.bg-red{
+background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+
+}
